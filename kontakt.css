@@ -1,0 +1,108 @@
+        body {
+            background-image: url("kontakt.jpg");
+        }
+/*menu_wrap*/
+#menu_wrap{
+	width: 500px;
+	height:68px;
+	padding-right:0px;
+	margin-right: 20px;
+	z-index:2;
+	float:right;
+	margin-bottom: 25px;
+        margin-top: 25px;
+        border-style: hidden;
+}
+
+/*menu*/
+#menu_wrap #menu{
+	padding:10px 0 0 10px;
+	margin:0;
+        border-style: hidden; 
+}
+#menu_wrap #menu li{
+	display:inline;
+	margin:0;
+	padding:0;
+        margin-top: 0px;
+}
+#menu_wrap #menu li a,
+#menu_wrap #menu li a:link{
+	font-family:"Century Gothic", Arial, Helvetica, sans-serif;
+	;
+	font-size:17px;
+	color:#556B2F;
+	text-decoration:none;
+	margin-right: 9px;
+	margin-left: 9px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+#menu_wrap #menu li a:hover,
+#menu_wrap #menu li a.current{
+	color:#556B2F;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+#logo, #menu_wrap {
+    display: inline;
+}
+        li {
+            padding: 60px;
+            display: inline;
+            margin-right: 10px;
+            font-size: large;
+            color: #FFFFFF;
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #000000;
+        }
+        #krop {
+            height: 250px;
+        }
+        #email {
+           color:  #556B2F;
+           font-family: monospace sans-serif times;
+           font-size: large;
+           margin-left: 1050px;
+           margin-top: 320px;
+        }
+        #tlf {
+           color:  #556B2F;
+           font-family: monospace sans-serif times;
+           font-size: large;
+           margin-left: 970px;
+           margin-top: 25px;
+        }
+        #adresse {
+           color:  #556B2F;
+           font-family: monospace sans-serif times;
+           font-size: large;
+           margin-left: 880px;
+           margin-top: 25px;
+        }
+        #post {
+           color:  #556B2F;
+           font-family: monospace sans-serif times;
+           font-size: large;
+           margin-left: 895px;
+           margin-top: 25px;
+        }
+        #face {
+           color:  #556B2F;
+           font-family: monospace sans-serif times;  
+           font-size: large;
+           margin-left: 970px;
+           margin-top: 25px;
+        }
+        span {
+            text-decoration: none;
+            color: #556B2F;
+        }

@@ -1,0 +1,25 @@
+
+        * {
+            vertical-align: top;
+        }
+        body {
+            background-image: url("forside.jpg");
+        }
+        #menu {
+            border-style: none;
+            margin-left: 534px;
+            margin-top: 402px;
+        }
+        li {
+            padding: 5px;
+            margin-right: 10px;
+            font-size: medium;
+            color: #FFFFFF;
+            display: block;
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #556B2F;
+        }
+       

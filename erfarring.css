@@ -1,0 +1,126 @@
+body {
+            background-image: url("farve.jpg");
+            
+        }
+/*menu_wrap*/
+#menu_wrap{
+	width: 500px;
+	height:68px;
+	padding-right:0px;
+	margin-right: 20px;
+	z-index:2;
+	float:right;
+	margin-bottom: 25px;
+        margin-top: 25px;
+        border-style: hidden;
+}
+
+/*menu*/
+#menu_wrap #menu{
+	padding:10px 0 0 10px;
+	margin:0;
+        border-style: hidden; 
+}
+#menu_wrap #menu li{
+	display:inline;
+	margin:0;
+	padding:0;
+        margin-top: 0px;
+}
+#menu_wrap #menu li a,
+#menu_wrap #menu li a:link{
+	font-family:"Century Gothic", Arial, Helvetica, sans-serif;
+	;
+	font-size:17px;
+	color:#556B2F;
+	text-decoration:none;
+	margin-right: 9px;
+	margin-left: 9px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+#menu_wrap #menu li a:hover,
+#menu_wrap #menu li a.current{
+	color:#556B2F;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+#logo, #menu_wrap {
+    display: inline;
+}
+        li {
+            padding: 60px;
+            display: inline;
+            margin-right: 10px;
+            font-size: large;
+            color: #FFFFFF;
+        }
+        h1 {
+            font-family: cursive sans-serif times;
+            font-size: medium;
+            margin: 1px;
+            padding: 1px;
+            color: #000000;
+        }
+        h2 {
+            font-family: fantasy sans-serif times;
+            font-size: xx-large;
+            margin: 1px;
+            padding: 1px;
+            color: #000000;
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #000000;
+        }
+        #krop {
+            border-style: solid;
+            width: 500px;
+            background-color: #556B2F;
+            margin: auto;
+            height: 850px;
+            margin-bottom: 50px;
+            margin-top: -100px;
+        }
+        h1 {
+            font-family: monospace times sans-serif;
+            font-size: large;
+            color: #fff;
+            text-align: center;
+        }
+        h2 {
+            font-family: sans-serif times;
+            font-size: medium;
+            color: #000000;
+        }
+        .work {
+            margin: 40px;
+        }
+        #cv {
+            border-style: none;
+            height: 165px;
+            width: 100px;
+            margin-left: 1100px;
+            margin-top: 10px;
+            border-style: hidden;
+        }
+        h3 {
+            font-family: monospace sans-serif times;
+            font-size: medium;
+            margin-top: 5px;
+            color: #556B2F;
+        }
+        #a, #b {
+            width: 100px;
+            border-style: hidden;
+        }
+        h4 {
+            color: #000;
+            line-height: 10px;
+        }

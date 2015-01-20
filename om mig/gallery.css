@@ -1,0 +1,101 @@
+ body {
+            background-image: url("farve.jpg");
+            
+        }
+/*menu_wrap*/
+#menu_wrap{
+	width: 480px;
+	height:68px;
+	padding-right:0px;
+	margin-right: -50px;
+	z-index:2;
+	float:right;
+	margin-bottom: 25px;
+        margin-top: 25px;
+        border-style: da;
+        margin-right: 20px;
+}
+/*menu*/
+#menu_wrap #menu{
+	padding:10px 0 0 10px;
+	margin:0;
+        border-style: hidden; 
+}
+#menu_wrap #menu li{
+	display:inline;
+	margin:0;
+	padding:0;
+        margin-top: 0px;
+}
+#menu_wrap #menu li a,
+#menu_wrap #menu li a:link{
+	font-family:"Century Gothic", Arial, Helvetica, sans-serif;
+	;
+	font-size:21px;
+	color:#556B2F;
+	text-decoration:none;
+	margin-right: 9px;
+	margin-left: 9px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+#menu_wrap #menu li a:hover,
+#menu_wrap #menu li a.current{
+	color:#556B2F;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+#logo, #menu_wrap {
+    display: inline;
+}
+        li {
+            padding: 60px;
+            display: inline;
+            margin-right: 10px;
+            font-size: large;
+            color: #FFFFFF;
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #000000;
+        }
+        #logo {
+            margin-left: 40px;
+            border-style: hidden;
+        }
+        #over {
+            text-align: center;
+            width: 100px;
+            margin: auto;
+            margin-top: -50px;
+        }
+        h1 {
+            font-family: monospace sans-serif times;
+            font-size: xx-large;
+            color: #FFFFFF;
+        }
+        .img {
+            width: 150px;
+            height: 150px;
+            border-style: solid;
+        }
+        #container {
+            width: 1120px;
+            border-style: hidden;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+
+        #billeder {
+            width: 1130px;
+            height: 500px;
+            border-style: hidden;
+            padding: 20px;
+            margin-left: 20px;
+        }

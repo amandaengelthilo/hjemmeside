@@ -1,0 +1,138 @@
+        body {
+            background-image: url("farve.jpg");
+            
+        }
+/*menu_wrap*/
+#menu_wrap{
+	width:500px;
+	height:30px;
+	padding-right:0px;
+	margin-right: 20px;
+	float:right;
+	margin-bottom: 25px;
+        margin-top: 25px;
+        border-style: hidden;
+}
+
+/*menu*/
+#menu_wrap #menu{
+	padding:10px 0 0 10px;
+	margin:0;
+        border-style: hidden; 
+}
+#menu_wrap #menu li{
+	display:inline;
+	margin:0;
+	padding:0;
+        margin-top: 0px;
+}
+#menu_wrap #menu li a,
+#menu_wrap #menu li a:link{
+	font-family:"Century Gothic", Arial, Helvetica, sans-serif;
+	;
+	font-size:17px;
+	color:#556B2F;
+	text-decoration:none;
+	margin-right: 9px;
+	margin-left: 9px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+#menu_wrap #menu li a:hover,
+#menu_wrap #menu li a.current{
+	color:#556B2F;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #fff;
+}
+#logo, #menu_wrap {
+    display: inline;
+}
+        #navn {
+            border-style: hidden;
+            width: 550px;
+            height: 40px;
+            padding-bottom: 10px;
+            margin: auto;
+            margin-top: 5px;
+            text-align: center !important;
+            padding-left: 0px;
+        }
+        h3 {
+            margin-left: 0px;
+            margin-bottom: 5px;
+            font-family: fantasy sans-serif times;
+            font-size: xx-large;
+        }
+        #tekst {
+            border-style: solid none;
+            height: 90px;
+            border-width: 2px;
+            margin: auto;
+            width: 400px;
+        }
+        h4 {
+            color: #556B2F;
+            font-family: monospace sans-serif times;
+            font-size: small;
+            line-height: 20px;
+            text-align: center !important;
+        }
+        #mellemrum {
+            border-style: none;
+            height: 20px;
+        }
+        #billeder {
+            border-style: none;
+            margin: auto;
+            height: 430px;
+            width: 1105px;
+            padding: 20px;
+            line-height: 20px;
+        }
+        .down {
+            border-style: solid;
+            display: none;
+            height: 150px;
+            width: 150px;
+        }
+        .up {
+            border-style: solid;
+            height: 150px;
+            width: 150px;
+        }
+        .rollover {
+            float: left;
+            margin: 10px;
+            
+        }        
+        .rollover:hover .up{
+            display: none;
+        }
+        
+        .rollover:hover .down{
+            display: block;
+            background-color: black;
+            text-align: center;
+            font-family: fantasy sans-serif times;
+            font-size: small;
+            color: #FFFFFF;
+            line-height: 25px;
+        }
+        span {
+            color: #FFFFFF;
+            line-height: 20px;
+        }
+        .clearboth {
+            clear: both;
+        }
+        #info {
+            border-style: hidden;
+        }
+        #logo {
+            border-style: hidden;
+        }
